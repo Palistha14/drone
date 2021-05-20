@@ -5,4 +5,4 @@ name: default
 steps:
 - name: greeting
   image: alpine
-  commands: chmod +x drone.sh &&  drone.sh
+  commands: bash drone.sh
