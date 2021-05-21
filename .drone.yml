@@ -3,7 +3,7 @@ type: docker
 name: default
 
 steps:
-- name: greeting
+- name: drone
   image: alpine
   commands: 
-  - chmod +x ./drone.sh &&  ./drone.sh
+  - chmod +x ./qualiti-script.sh &&  ./qualiti-script.sh
