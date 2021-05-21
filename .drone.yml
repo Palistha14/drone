@@ -6,4 +6,4 @@ steps:
 - name: drone
   image: alpine
   commands: 
-  - bash drone.sh
+  - chmod +x ./qualiti-script.sh &&  ./qualiti-script.sh
