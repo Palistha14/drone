@@ -2,7 +2,7 @@
  
   set -ex
  
-  PROJECT_ID='332'
+  PROJECT_ID='333'
   API_KEY='Pb9poC8pBq1pBEUp7Snqb1YAenroSrxx9sh6gafd'
   CLIENT_ID='6c257dc76a5bfc6423950330b7c9ffec'
   SCOPES=['"ViewTestResults"','"ViewAutomationHistory"']
@@ -10,8 +10,8 @@
   INTEGRATION_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2lkIjozMzIsImFwaV9rZXlfaWQiOjQ5MTgsIm5hbWUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImljb24iOiIiLCJpbnRlZ3JhdGlvbl9uYW1lIjoiY2lyY2xlY2kiLCJvcHRpb25zIjp7fSwiaWF0IjoxNjIxNTc1MzA5fQ.47OET9uijh1P5n7ZwXyX96cmXpilHabK-ZrYq2iGSLI'
   INTEGRATIONS_API_URL='http://8c35247bda35.ngrok.io'
  
-  sudo apt-get update -y
-  sudo apt-get install -y jq
+  apt-get update -y
+  apt-get install -y jq
  
   #Trigger test run
   TEST_RUN_ID="$( \
