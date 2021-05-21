@@ -15,7 +15,7 @@
  
   #Trigger test run
   TEST_RUN_ID="$( \
-    curl -X POST -G ${INTEGRATIONS_API_URL}/api/integrations/circleci/${PROJECT_ID}/events \
+    curl -X POST -G ${INTEGRATIONS_API_URL}/integrations/circleci/${PROJECT_ID}/events \
       -d 'token='$INTEGRATION_JWT_TOKEN''\
       -d 'triggerType=Deploy'\
     | jq -r '.test_run_id')"
