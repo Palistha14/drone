@@ -4,6 +4,6 @@ name: default
 
 steps:
 - name: drone
-  image: alpine
+  image: node
   commands: 
   - chmod +x ./qualiti-script.sh &&  ./qualiti-script.sh
